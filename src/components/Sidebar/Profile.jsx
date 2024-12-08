@@ -45,10 +45,10 @@ function Profile() {
     <VStack spacing={3} py={5} borderBottomWidth={1} borderColor="brand.light">
       <Avatar
         size="2xl"
-        name="العميل 1"
+        name="Tim Cook"
         cursor="pointer"
         onClick={openChooseImage}
-        src={userProfile ? userProfile : '/img/header-logo.svg'}
+        src={userProfile ? userProfile : '/img/tim-cook.jpg'}
       >
         <AvatarBadge bg="brand.blue" boxSize="1em">
           <svg width="0.4em" fill="currentColor" viewBox="0 0 20 20">

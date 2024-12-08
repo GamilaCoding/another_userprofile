@@ -2,8 +2,14 @@ import { Box, Text, VStack } from '@chakra-ui/react'
 
 const list = [
   {
+    id: 1,
+    name: 'Opportunities applied',
+    value: 32,
+    color: 'yellow',
+  },
+  {
     id: 2,
-    name: 'عدد الباقات مسجل فيها',
+    name: 'Opportunities won',
     value: 26,
     color: 'green',
   },
